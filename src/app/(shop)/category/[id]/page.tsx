@@ -1,7 +1,6 @@
 import { ProductGrid, Title } from "@/components";
 import { Category } from "@/interfaces/product.interface";
 import { initialData } from "@/seed/seed";
-import { notFound } from "next/navigation";
 
 const seedProducts = initialData.products;
 
